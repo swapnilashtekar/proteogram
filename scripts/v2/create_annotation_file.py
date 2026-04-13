@@ -14,7 +14,7 @@ from Bio.PDB.PDBParser import PDBParser, PDBConstructionWarning
 from Bio.PDB.Polypeptide import PPBuilder
 from Bio.SCOP import Scop
 
-from proteogram.utils import read_yaml
+from proteogram.common import read_yaml
 
 
 # Ignore PDB construction warnings
